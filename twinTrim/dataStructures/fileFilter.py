@@ -29,3 +29,4 @@ class FileFilter:
         if os.path.basename(file_path).strip() in self.fileExclude:
             return False
         return True
+    
